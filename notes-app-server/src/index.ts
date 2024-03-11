@@ -9,7 +9,9 @@ app.use(express.json())
 app.use(cors())
 
 app.get("/api/notes", async (req, res) => {
-    const notes = await prisma.note.findMany();
+    const notes = await prisma.note.findMany({
+        orderBy: { id : 'desc'}
+    });
 
     res.json(notes);
 });

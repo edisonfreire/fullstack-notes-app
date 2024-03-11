@@ -5,10 +5,10 @@ The notes are persistant between refreshes because of the database integration.
 
 ## Technologies Used
 
-Frontend: React + CSS
-Backend: Node.js
-Language: Typescript
-Database: PostgreSQL
+- Frontend: React + CSS
+- Backend: Node.js
+- Language: Typescript
+- Database: PostgreSQL
 
 ### Endpoints
 
@@ -31,13 +31,8 @@ model Note {
 
 ## Additional Infomration
 
-Storing notes to Postgres Database
-[text](https://www.elephantsql.com/)
+Used [Elphant SQL](https://www.elephantsql.com/) to host the Postgres SQL database.
 
-Used Prisma to talk to the database without needing to write SQL commands.
-[text](https://www.prisma.io/docs/orm/prisma-client)
+Used [Prisma](https://www.prisma.io/docs/orm/prisma-client) to talk to the database without needing to write SQL commands.
 
-Used CORs for bypassing cors issues while developing locally.
-
-Express framwork used to create the API endpoints and handles the requests.
-[text](https://expressjs.com/)
+Used [Express](https://expressjs.com/) framework used to create the API endpoints and handles the requests.

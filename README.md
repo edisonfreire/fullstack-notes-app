@@ -1,7 +1,10 @@
 # Fullstack Notes App
 
-Full stack notes app: where you add, delete and update notes.
+Full stack notes app: where you can add, delete and update notes.
 The notes are persistant between refreshes because of the database integration.
+
+## Preview
+
 
 ## Technologies Used
 

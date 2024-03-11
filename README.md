@@ -3,8 +3,9 @@
 Full stack notes app: where you can add, delete and update notes.
 The notes are persistant between refreshes because of the database integration.
 
-## Preview
+## Video Walkthrough
 
+<img src='https://imgur.com/5sD8jad.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ## Technologies Used
 
